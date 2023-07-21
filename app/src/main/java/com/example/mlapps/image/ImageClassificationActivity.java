@@ -1,10 +1,7 @@
-package com.example.mlapps;
+package com.example.mlapps.image;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
@@ -31,6 +28,7 @@ public class ImageClassificationActivity extends ImageHelperActivity {
                 .setConfidenceThreshold(0.7f)
                 .build());
     }
+
 
     @Override
     protected void runClassification(Bitmap bitmap) {

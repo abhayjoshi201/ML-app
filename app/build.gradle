@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.mlapps"
-        minSdk 21
+        minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -27,16 +27,22 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     //image classification
-    implementation 'com.google.mlkit:image-labeling:17.0.7'
+    implementation 'com.google.mlkit:image-labeling:17.0.0'
     //custom classification
-    implementation 'com.google.mlkit:image-labeling-custom-common:17.0.0'
+    implementation 'com.google.mlkit:image-labeling-custom:17.0.1'
+    //object Detection
+    implementation 'com.google.mlkit:object-detection:17.0.0'
+    //face Detection
+    implementation 'com.google.mlkit:face-detection:16.1.5'
+    //audio Detection
+    implementation 'org.tensorflow:tensorflow-lite-task-audio:0.4.3'
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
