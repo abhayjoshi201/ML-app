@@ -43,10 +43,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ObjectDetectionActivity.class);
         startActivity(intent);
     }
-
-    public void onGotoAudioClassification(View view){
-        //start image activity
-        Intent intent = new Intent(this, AudiohelperActivity.class);
-        startActivity(intent);
-    }
 }

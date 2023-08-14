@@ -16,14 +16,12 @@
         android:theme="@style/Theme.MLApps"
         tools:targetApi="33">
         <activity
-            android:name=".helpers.AudiohelperActivity">
+            android:name=".audio.AudioClassificationActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".image.ImageClassificationActivity"
-            android:screenOrientation="userPortrait" />
+        <activity android:name=".image.ImageClassificationActivity"/>
         <activity android:name=".image.FlowerIdentificationActivity"/>
         <activity android:name=".image.ObjectDetectionActivity"/>
         <activity android:name=".image.FaceDetectionActivity"/>
