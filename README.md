@@ -3,14 +3,11 @@
 Detectify is an Android application designed for image
  and text detection, as well as sound recognition. It utilizes Java, TensorFlow Lite, and Machine Learning techniques to provide real-time analysis and feedback to users.
 
-
-
-![Untitled design](https://github.com/abhayjoshi201/ML-app/assets/105213625/74f9df67-56d3-4d27-9d72-5bad2c828751)
-
 - **Image Classification**: Detectify offers real-time image classification using TensorFlow Lite models.
 - **Audio Processing**: The application includes sound recognition capabilities, allowing users to analyze audio inputs.
 - **Text Analysis**: Detectify provides text analysis functionalities for processing and understanding textual data.
 - **Instant Feedback**: Utilizes Machine Learning models to offer instant feedback based on image, text, and audio inputs.
+![Untitled design (1)](https://github.com/abhayjoshi201/ML-app/assets/105213625/b39c17bb-2198-4f69-b32a-f4973fb3d58a)
 
 ## Technologies Used
 
